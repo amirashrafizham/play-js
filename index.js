@@ -1,10 +1,13 @@
-console.log("Hello, this is the algorithms course")
+console.log("Algorithmscourse")
 
 let num = 0
 
 while (num < 100) {
-  if (num%2==0) {
-   console.log(num)   
-  }
+   if (num%2 == 0) {
+     console.log("Even number",num)
+   }  
+   else {
+     console.log("Odd number",num)
+   }
   num += 5
 }
