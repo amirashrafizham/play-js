@@ -1,7 +1,11 @@
+/*
+
+  This example is from the JavaScript Data Structures and Algorithms book 
+  Chapter 1  
+*/
+
 //exampleLinear(2)
 exampleQuadratic(2)
-
-
 
 function exampleLinear(n) {
   for (let i = 0; i < n; i++){
