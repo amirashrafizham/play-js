@@ -4,8 +4,16 @@
   Chapter 1  
 */
 
-//exampleLinear(2)
-exampleQuadratic(2)
+console.log("example linear")
+exampleLinear(5)
+
+console.log("example quadratic")
+exampleQuadratic(5)
+
+console.log("example cubic")
+exampleCubic(5)
+
+
 
 function exampleLinear(n) {
   for (let i = 0; i < n; i++){
@@ -16,8 +24,20 @@ function exampleLinear(n) {
 function exampleQuadratic(n){
   for (let i=0; i<n; i++){
     console.log(i);
-    for (let j=0; j<n; j++){
+    for (let j=i; j<n; j++){
       console.log(j)
     }
+  }
+}
+
+function exampleCubic(n){
+  for (let i=0; i<n; i++){
+     console.log(i);
+     for (let j=i; j<n; j++){
+       console.log(j);
+       for (let k=j; j<n;j++){
+         console.log(k)
+       }
+     } 
   }
 }
